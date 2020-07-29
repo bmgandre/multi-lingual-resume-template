@@ -1,0 +1,4 @@
+PO4A-HEADER:mode=before;position=documentclass
+% !TeX spellcheck = pt_BR
+% !TeX encoding = UTF-8
+

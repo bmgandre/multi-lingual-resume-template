@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lt_surname\n"
+"POT-Creation-Date: 2020-05-10 12:56-0300\n"
+"PO-Revision-Date: 2020-05-10 12:56-0300\n"
+"Last-Translator: None\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 20.04.0\n"
+
+#. type: newcommand{#4}
+#: lt_surname-en.tex:14
+msgid "english"
+msgstr "portuguese"
+
+#. type: Plain text
+#: lt_surname-en.tex:14
+msgid "\\moderncvstyle{banking} \\moderncvcolor{blue}"
+msgstr "\\moderncvstyle{banking} \\moderncvcolor{blue}"
+
+#. type: newcommand{#4}
+#: lt_surname-en.tex:22
+msgid "Software Engineer"
+msgstr "Analista de Sistemas"
+
+#. type: Plain text
+#: lt_surname-en.tex:22
+msgid ""
+"\\skypesocialsymbol{{\\faSkype~}} \\newcommand*"
+"\\phonesocialsymbol{{\\faPhone~}} \\newcommand*"
+"\\emailsocialsymbol{{\\faEnvelope~}}"
+msgstr ""
+"\\skypesocialsymbol{{\\faSkype~}} \\newcommand*"
+"\\phonesocialsymbol{{\\faPhone~}} \\newcommand*"
+"\\emailsocialsymbol{{\\faEnvelope~}}"
+
+#. type: ifthenelse{#2}
+#: lt_surname-en.tex:22
+msgid "\\href{#2}{#2}"
+msgstr "\\href{#2}{#2}"
+
+#. type: ifthenelse{#3}
+#: lt_surname-en.tex:22
+msgid "\\href{#2}{#1}"
+msgstr "\\href{#2}{#1}"
+
+#. type: Plain text
+#: lt_surname-en.tex:24
+msgid "\\firstname{Name}"
+msgstr "\\firstname{Nome}"
+
+#. type: Plain text
+#: lt_surname-en.tex:26
+msgid "\\familyname{Surname}"
+msgstr "\\familyname{Sobrenome}"
+
+#. type: title{#1}
+#: lt_surname-en.tex:28
+msgid "\\curpos"
+msgstr "\\curpos"
+
+#. type: Plain text
+#: lt_surname-en.tex:30
+msgid "\\address{City - Country}{}{}"
+msgstr "\\address{Cidade - País}{}{}"
+
+#. type: Plain text
+#: lt_surname-en.tex:36
+msgid ""
+"\\social[phone][tel:+001500055555]{+0 01 50005 5555} \\social[email][mailto:"
+"name.surname@maildomain.com]{name.surname@maildomain.com} \\social[linkedin]"
+"[http://linkedin.com/in/namesurname/en]{namesurname} \\social[github][http://"
+"github.com/namesurname]{namesurname} \\social[skype][skype:live:namesurname?"
+"call]{live:namesurname}"
+msgstr ""
+"\\social[phone][tel:+001500055555]{+0 01 50005 5555} \\social[email][mailto:"
+"name.surname@maildomain.com]{name.surname@maildomain.com} \\social[linkedin]"
+"[http://linkedin.com/in/namesurname/en]{namesurname} \\social[github][http://"
+"github.com/namesurname]{namesurname} \\social[skype][skype:live:namesurname?"
+"call]{live:namesurname}"
+
+#.  Letter Information 
+#.  Letter recipient
+#. type: Plain text
+#: lt_surname-en.tex:40
+msgid "\\recipient{Company name}{City\\\\Country}"
+msgstr "\\recipient{Nome da empresa}{Cidade\\\\País} "
+
+#. type: Plain text
+#: lt_surname-en.tex:42
+msgid "\\date{\\today}"
+msgstr "\\date{\\today}"
+
+#.  Opening greeting
+#. type: Plain text
+#: lt_surname-en.tex:44
+msgid "\\opening{Dear Hiring Manager,}"
+msgstr "\\opening{Prezado recrutador,}"
+
+#.  Closing phrase
+#. type: Plain text
+#: lt_surname-en.tex:46
+msgid "\\closing{Yours sincerely,}"
+msgstr "\\closing{Atenciosamente,}"
+
+#.  List of enclosed documents
+#. type: Plain text
+#: lt_surname-en.tex:48
+msgid "\\enclosure[Attachments]{curriculum vit\\ae{}}"
+msgstr "\\enclosure[Attachments]{curriculum vit\\ae{}}"
+
+#. type: newcommand{#4}
+#: lt_surname-en.tex:61
+msgid ""
+"Letter content. Letter content. Letter content. Letter content.  Letter "
+"content. Letter content. Letter content. Letter content.  Letter content. "
+"Letter content. Letter content. Letter content. Letter content.  Letter "
+"content. Letter content. Letter content. Letter content. Letter content.  "
+"Letter content. Letter content. Letter content. Letter content. Letter "
+"content.  Letter content. Letter content. Letter content. Letter content. "
+"Letter content.  Letter content.  Letter content. Letter content. Letter "
+"content. Letter content. Letter content.  Letter content. Letter content. "
+"Letter content. Letter content."
+msgstr ""
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. \n"
+"\n"
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da "
+"carta. \n"
+"\n"
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. \n"
+"\n"
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. Conteúdo da carta. "
+"Conteúdo da carta. Conteúdo da carta. "
+
+#.  No page/lastapage in the letter
+#.  Change if letter is more than 1 page
+#.  Print letter title
+#.  Print letter signature
+#.  this is the page "1/1" % (no number when total pages = 1)
+#.  end of pages without page/lastapage}
+#. type: document
+#: lt_surname-en.tex:76
+msgid ""
+"{\\fancyfoot[r]{} \\setcounter{page}{0} \\makelettertitle "
+"\\pdfbookmark[section]{Letter}{toc} \\justify \\textsummary "
+"\\makeletterclosing \\newpage }"
+msgstr ""
+"{\\fancyfoot[r]{} \\setcounter{page}{0} \\makelettertitle "
+"\\pdfbookmark[section]{Carta}{toc} \\justify \\textsummary "
+"\\makeletterclosing \\newpage }"

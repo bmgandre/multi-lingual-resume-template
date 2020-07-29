@@ -1,0 +1,36 @@
+services:
+- docker
+
+env:
+  global:
+    - IMAGE=bmgandre/docker-archlinux-texlive:0.2.0
+    - CONTAINER=build_container
+    - BUNDLE_NAME=resume-${TRAVIS_TAG:-$TRAVIS_BUILD_NUMBER}.tar.gz
+
+before_install:
+- docker run -dit --name "$CONTAINER" -v $(pwd):/src "$IMAGE" bash
+
+script:
+- mkdir build
+- docker exec -it "$CONTAINER" bash -l -c 'cd /src; make DESTDIR=build'
+- |
+  mkdir dist
+  mv build/*.pdf dist
+- |
+  cd dist
+  cp ../.version VERSION
+  sha256sum *.pdf > SHA256SUMS
+  tar -cvzf ../${BUNDLE_NAME} *
+  cd ..
+
+before_deploy:
+- echo "deploying $BUNDLE_NAME to GitHub releases"
+
+deploy:
+  provider: releases
+  api_key:
+    secure: tyckBk0YLtJqcIqMdwc1Z/emFYbrWdSpV6Q/t5W7UBEEgfD2oi/Po/W/kPh/ISdVFpPzPrFHnaN++yaaBpyUA/HEWwX+UbcSSbZVt2MkV7bBlqbF3GkE5Wx4d3iuK6QMM8Bv+Iw0BRknNtYFAZfywtcayfCFUj2ADLHw6V/RyZPiJOQBU5dZ6JpdR6f3NWeTebVQQeOOuQ8spbTvL4NgIaQG1qs1sahf67oJKE560xP699iRoLFjxW/dejX/U4mC+JuBNkkQvpyBXuIo/ojR0WmiU0dsq8AI0qWs6u00TbcTlRGM72w2+Rddn3EDVMFVkNVKJOZejE1qolSseLVjpcf+VdzNwCt3H/a1gtyaanzYC3PTwIbvcHpm1QYdY252mkdqRUoPhXa3LyGvGE+uJGuWqdes1YhVfi5QzcwA12cr5bUptuH879VmKARmjgbusp/D5hLSdi+8LOuOveKp80xt9udLdu5G7ELNh9O2g6O6F2wd190PJF9wzsvBOwu7um3OyKNVc4TFYXy2O3kHxLoCVgwMBeQiEzcJk5ATE9Q7uw11FFnX5ZBymMHxWmxRcN8SWDHx+TmJ56bUB3SiUof/Tj8tqVr/RTGbU6uOQ+OekSEAUXqH/ljkJQW1ryVey5FB1DTwt3LyISu7nTPfghTwKNu1DNJZ24rB8z3YFi0=
+  file: "${BUNDLE_NAME}"
+  skip_cleanup: true
+  on:
+    tags: true

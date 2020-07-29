@@ -1,0 +1,119 @@
+% !TeX spellcheck = en_US
+% !TeX encoding = UTF-8
+
+\documentclass[11pt,a4paper,sans,english]{moderncv}
+\newcommand{\cvlang}{english}
+\usepackage[\cvlang]{babel}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,top=20mm,bottom=20mm,right=20mm,left=20mm]{geometry}
+\usepackage{ragged2e}
+
+\newcommand{\curpos}{Software Engineer}
+\newcommand*\skypesocialsymbol{{\faSkype~}}
+\newcommand*\phonesocialsymbol{{\faPhone~}}
+\newcommand*\emailsocialsymbol{{\faEnvelope~}}
+\renewcommand*{\httplink}[2][]{
+	\ifthenelse{\equal{#1}{}}{\href{#2}{#2}}{\href{#2}{#1}}
+}
+
+\firstname{Name}
+
+\familyname{Surname}
+
+\title{\curpos}
+
+\address{City - Country}{}{}
+
+\social[phone][tel:+001500055555]{+0 01 50005 5555}
+\social[email][mailto:name.surname@maildomain.com]{name.surname@maildomain.com}
+\social[linkedin][http://linkedin.com/in/namesurname/en]{namesurname}
+\social[github][http://github.com/namesurname]{namesurname}
+\social[skype][skype:live:namesurname?call]{live:namesurname}
+
+\begin{document}
+
+\makecvtitle
+%\vspace*{-5mm}
+
+\section{Professional experience}
+
+\newcommand{\expfdat}{01/2017--present}
+\newcommand{\expfpos}{Full stack software engineer}
+\newcommand{\expfloc}{Employer X}
+\newcommand{\expfcit}{City}
+\newcommand{\expfpro}{Project X}
+\newcommand{\expfdes}{Developed a, b and c... . Improved Z... . Redesigned system K.}
+\cventry{\expfdat}{\expfpos}{\expfloc}{\expfcit}{\expfpro}{\expfdes}
+
+\newcommand{\expedat}{01/2015--12/2016}
+\newcommand{\expepos}{Back end software engineer}
+\newcommand{\expeloc}{Employer Y}
+\newcommand{\expecit}{City}
+\newcommand{\expepro}{Project Y}
+\newcommand{\expedes}{Developed j, k and l... . Improved X... . Redesigned system K.}
+\cventry{\expedat}{\expepos}{\expeloc}{\expecit}{\expepro}{\expedes}
+
+\newcommand{\expcdat}{01/2011--12/2014}
+\newcommand{\expcpos}{Software engineer}
+\newcommand{\expcloc}{Employer W}
+\newcommand{\expccit}{City}
+\newcommand{\expcpro}{Project W}
+\newcommand{\expcdes}{Developed f, g and h... . Improved P... . Redesigned system D.}
+\cventry{\expcdat}{\expcpos}{\expcloc}{\expccit}{\expcpro}{\expcdes}
+
+\section{Education and qualifications}
+
+\newcommand{\edubdat}{01/2013--01/2015}
+\newcommand{\edubtil}{Master of Science in Computer Science}
+\newcommand{\edubloc}{University X}
+\newcommand{\edubdes}{Developed a ... .}
+\newcommand{\edubori}{Adviser: Professor X. Co-adviser: Professor Y. Thesis title: A Framework for (...)}
+\cventry{\edubdat}{\edubtil}{\edubloc}{}{}{\edubdes\\\edubori}
+
+\newcommand{\eduadat}{01/2006--06/2010}
+\newcommand{\eduatil}{Bachelor of Science in Computer Science}
+\newcommand{\edualoc}{University Y}
+\cventry{\eduadat}{\eduatil}{\edualoc}{}{}{}
+
+\section{Languages}
+
+\newcommand{\lnganam}{English}
+\newcommand{\lngalev}{Good command}
+
+\newcommand{\lngbnam}{Portuguese}
+\newcommand{\lngblev}{Native speaker}
+
+\cvdoubleitem{\lnganam}{\lngalev}
+             {\lngbnam}{\lngblev}
+
+\section{Areas of expertise}
+\newcommand{\techtoa}{Database}
+\newcommand{\techtob}{Programming Languages}
+\newcommand{\techtoc}{Software design}
+\newcommand{\techtod}{Process}
+\newcommand{\techtoe}{Platform}
+\newcommand{\techtof}{Frameworks}
+
+\newcommand{\techtoca}{Object-oriented design}
+\newcommand{\techtocb}{Design patterns}
+\newcommand{\techtocc}{Architectural patterns}
+\newcommand{\techtocd}{Parallel computing}
+\newcommand{\techtoce}{Messaging passing}
+\newcommand{\techtocf}{SOLID principles}
+
+\newcommand{\techtoda}{Agile}
+
+\cvdoubleitem{\techtob}{C\#, Javascript, Typescript, C++, C, Java, Python, HTML, CSS, Bash Shell, Powershell}
+             {\techtoc}{\techtoca, \techtocb, \techtocc, \techtocd, \techtoce, \techtocf, BDD, UML}
+             
+\cvdoubleitem{\techtof}{.Net, Entity Framework, Asp.Net, SpecFlow, Angular, Android, JDK, Boost}             
+             {\techtoa}{SQL Server, Oracle, DB2, Adabas, PL/SQL, Firebird, MongoDB, Redis}
+
+\cvdoubleitem{\techtoe}{REST, Web, Android, Desktop, Linux, Windows, Git, TFS}
+             {\techtod}{\techtoda, Kanban, Scrum, TDD}
+
+\clearpage
+
+\end{document}

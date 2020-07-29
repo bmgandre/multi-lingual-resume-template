@@ -1,0 +1,77 @@
+% !TeX spellcheck = en_US
+% !TeX encoding = UTF-8
+
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[11pt,a4paper,sans,english]{moderncv}
+\newcommand{\cvlang}{english}
+\usepackage[\cvlang]{babel}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,top=20mm,bottom=20mm,right=20mm,left=20mm]{geometry}
+\usepackage{ragged2e}
+\usepackage{bookmark}
+
+\newcommand{\curpos}{Software Engineer}
+\newcommand*\skypesocialsymbol{{\faSkype~}}
+\newcommand*\phonesocialsymbol{{\faPhone~}}
+\newcommand*\emailsocialsymbol{{\faEnvelope~}}
+\renewcommand*{\httplink}[2][]{
+	\ifthenelse{\equal{#1}{}}{\href{#2}{#2}}{\href{#2}{#1}}
+}
+
+\firstname{Name}
+
+\familyname{Surname}
+
+\title{\curpos}
+
+\address{City - Country}{}{}
+
+\social[phone][tel:+001500055555]{+0 01 50005 5555}
+\social[email][mailto:name.surname@maildomain.com]{name.surname@maildomain.com}
+\social[linkedin][http://linkedin.com/in/namesurname/en]{namesurname}
+\social[github][http://github.com/namesurname]{namesurname}
+\social[skype][skype:live:namesurname?call]{live:namesurname}
+
+
+% Letter Information 
+\recipient{Company name}{City\\Country} % Letter recipient
+
+\date{\today} 
+
+\opening{Dear Hiring Manager,} % Opening greeting
+
+\closing{Yours sincerely,} % Closing phrase
+
+\enclosure[Attachments]{curriculum vit\ae{}} % List of enclosed documents
+
+\newcommand{\textsummary}{Letter content. Letter content. Letter content. Letter content. 
+Letter content. Letter content. Letter content. Letter content. 
+
+Letter content. Letter content. Letter content. Letter content. Letter content. 
+Letter content. Letter content. Letter content. Letter content. Letter content. 
+
+Letter content. Letter content. Letter content. Letter content. Letter content. 
+Letter content. Letter content. Letter content. Letter content. Letter content. 
+Letter content. 
+
+Letter content. Letter content. Letter content. Letter content. Letter content. 
+Letter content. Letter content. Letter content. Letter content. }
+
+\begin{document}
+
+{\fancyfoot[r]{}                % No page/lastapage in the letter
+	\setcounter{page}{0}        % Change if letter is more than 1 page
+	\makelettertitle            % Print letter title
+	
+	\pdfbookmark[section]{Letter}{toc}
+	\justify
+	\textsummary
+
+	\makeletterclosing          % Print letter signature
+	\newpage 
+	% this is the page "1/1" % (no number when total pages = 1)
+}% end of pages without page/lastapage}
+
+\end{document}

@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cv_surname\n"
+"POT-Creation-Date: 2020-05-10 12:54-0300\n"
+"PO-Revision-Date: 2020-05-10 12:56-0300\n"
+"Last-Translator: None\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.04.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:12
+msgid "english"
+msgstr "portuguese"
+
+#
+#. type: Plain text
+#: cv_surname-en.tex:12
+msgid "\\moderncvstyle{banking} \\moderncvcolor{blue}"
+msgstr "\\moderncvstyle{banking} \\moderncvcolor{blue}"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:20
+msgid "Software Engineer"
+msgstr "Analista de Sistemas"
+
+#. type: Plain text
+#: cv_surname-en.tex:20
+msgid ""
+"\\skypesocialsymbol{{\\faSkype~}} \\newcommand*"
+"\\phonesocialsymbol{{\\faPhone~}} \\newcommand*"
+"\\emailsocialsymbol{{\\faEnvelope~}}"
+msgstr ""
+"\\skypesocialsymbol{{\\faSkype~}} \\newcommand*"
+"\\phonesocialsymbol{{\\faPhone~}} \\newcommand*"
+"\\emailsocialsymbol{{\\faEnvelope~}}"
+
+#. type: ifthenelse{#2}
+#: cv_surname-en.tex:20
+msgid "\\href{#2}{#2}"
+msgstr "\\href{#2}{#2}"
+
+#. type: ifthenelse{#3}
+#: cv_surname-en.tex:20
+msgid "\\href{#2}{#1}"
+msgstr "\\href{#2}{#1}"
+
+#. type: Plain text
+#: cv_surname-en.tex:22
+msgid "\\firstname{Name}"
+msgstr "\\firstname{Nome}"
+
+#. type: Plain text
+#: cv_surname-en.tex:24
+msgid "\\familyname{Surname}"
+msgstr "\\familyname{Sobrenome}"
+
+#. type: title{#1}
+#: cv_surname-en.tex:26
+msgid "\\curpos"
+msgstr "\\curpos"
+
+#. type: Plain text
+#: cv_surname-en.tex:28
+msgid "\\address{City - Country}{}{}"
+msgstr "\\address{Cidade}{}{}"
+
+#. type: Plain text
+#: cv_surname-en.tex:34
+msgid ""
+"\\social[phone][tel:+001500055555]{+0 01 50005 5555} \\social[email][mailto:"
+"name.surname@maildomain.com]{name.surname@maildomain.com} \\social[linkedin]"
+"[http://linkedin.com/in/namesurname/en]{namesurname} \\social[github][http://"
+"github.com/namesurname]{namesurname} \\social[skype][skype:live:namesurname?"
+"call]{live:namesurname}"
+msgstr ""
+"\\social[phone][tel:+001500055555]{+0 01 50005 5555} \\social[email][mailto:"
+"name.surname@maildomain.com]{name.surname@maildomain.com} \\social[linkedin]"
+"[http://linkedin.com/in/namesurname/en]{namesurname} \\social[github][http://"
+"github.com/namesurname]{namesurname} \\social[skype][skype:live:namesurname?"
+"call]{live:namesurname}"
+
+#. \vspace*{-5mm}
+#. type: document
+#: cv_surname-en.tex:39
+msgid "\\makecvtitle"
+msgstr "\\makecvtitle"
+
+#. type: section{#2}
+#: cv_surname-en.tex:41
+msgid "Professional experience"
+msgstr "Experiência profissional"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:49
+msgid "01/2017--present"
+msgstr "01/2017--Atual"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:49
+msgid "Full stack software engineer"
+msgstr "Analista de sistemas full stack"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:49
+msgid "Employer X"
+msgstr "Empregador X"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:49 cv_surname-en.tex:57 cv_surname-en.tex:65
+msgid "City"
+msgstr "Cidade"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:49
+msgid "Project X"
+msgstr "Projeto X"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:49
+msgid "Developed a, b and c... . Improved Z... . Redesigned system K."
+msgstr "Desenvolveu a, b e c... . Melhorou Z... . Reprojetou o sistema K."
+
+#. type: document
+#: cv_surname-en.tex:49
+msgid ""
+"\\cventry{\\expfdat}{\\expfpos}{\\expfloc}{\\expfcit}{\\expfpro}{\\expfdes}"
+msgstr ""
+"\\cventry{\\expfdat}{\\expfpos}{\\expfloc}{\\expfcit}{\\expfpro}{\\expfdes}"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:57
+msgid "01/2015--12/2016"
+msgstr "01/2015--12/2016"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:57
+msgid "Back end software engineer"
+msgstr "Analista de sistemas back end"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:57
+msgid "Employer Y"
+msgstr "Empregador Y"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:57
+msgid "Project Y"
+msgstr "Projeto Y"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:57
+msgid "Developed j, k and l... . Improved X... . Redesigned system K."
+msgstr "Desenvolveu j, k e l... . Melhorou X... . Reprojetou o sistema K."
+
+#. type: document
+#: cv_surname-en.tex:57
+msgid ""
+"\\cventry{\\expedat}{\\expepos}{\\expeloc}{\\expecit}{\\expepro}{\\expedes}"
+msgstr ""
+"\\cventry{\\expedat}{\\expepos}{\\expeloc}{\\expecit}{\\expepro}{\\expedes}"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:65
+msgid "01/2011--12/2014"
+msgstr "01/2011--12/2014"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:65
+msgid "Software engineer"
+msgstr "Analista de Sistemas"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:65
+msgid "Employer W"
+msgstr "Empregador W"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:65
+msgid "Project W"
+msgstr "Projeto W"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:65
+msgid "Developed f, g and h... . Improved P... . Redesigned system D."
+msgstr "Desenvolveu f, g e h... . Melhorou P... . Reprojetou system D."
+
+#. type: document
+#: cv_surname-en.tex:65
+msgid ""
+"\\cventry{\\expcdat}{\\expcpos}{\\expcloc}{\\expccit}{\\expcpro}{\\expcdes}"
+msgstr ""
+"\\cventry{\\expcdat}{\\expcpos}{\\expcloc}{\\expccit}{\\expcpro}{\\expcdes}"
+
+#. type: section{#2}
+#: cv_surname-en.tex:67
+msgid "Education and qualifications"
+msgstr "Educação e qualificações"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:74
+msgid "01/2013--01/2015"
+msgstr "01/2013--01/2015"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:74
+msgid "Master of Science in Computer Science"
+msgstr "Mestre em Ciência da Computação"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:74
+msgid "University X"
+msgstr "Universidade X"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:74
+msgid "Developed a ... ."
+msgstr "Desenvolveu a... ."
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:74
+msgid ""
+"Adviser: Professor X. Co-adviser: Professor Y. Thesis title: A Framework for "
+"(...)"
+msgstr ""
+"Orientador: Professor X. Co-orientador: Professor Y. Título da tese: Um "
+"Framework para (...)"
+
+#. type: document
+#: cv_surname-en.tex:74
+msgid "\\cventry{\\edubdat}{\\edubtil}{\\edubloc}{}{}{\\edubdes\\\\\\edubori}"
+msgstr "\\cventry{\\edubdat}{\\edubtil}{\\edubloc}{}{}{\\edubdes\\\\\\edubori}"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:79
+msgid "01/2006--06/2010"
+msgstr "01/2006--06/2010"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:79
+msgid "Bachelor of Science in Computer Science"
+msgstr "Bacharel em Ciência da Computação"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:79
+msgid "University Y"
+msgstr "Universidade Y"
+
+#. type: document
+#: cv_surname-en.tex:79
+msgid "\\cventry{\\eduadat}{\\eduatil}{\\edualoc}{}{}{}"
+msgstr "\\cventry{\\eduadat}{\\eduatil}{\\edualoc}{}{}{}"
+
+#. type: section{#2}
+#: cv_surname-en.tex:81
+msgid "Languages"
+msgstr "Idiomas"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:84
+msgid "English"
+msgstr "Inglês"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:84
+msgid "Good command"
+msgstr "Avançado"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:87
+msgid "Portuguese"
+msgstr "Português"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:87
+msgid "Native speaker"
+msgstr "Fluente"
+
+#. type: document
+#: cv_surname-en.tex:90
+msgid "\\cvdoubleitem{\\lnganam}{\\lngalev} {\\lngbnam}{\\lngblev}"
+msgstr "\\cvdoubleitem{\\lnganam}{\\lngalev} {\\lngbnam}{\\lngblev}"
+
+#. type: section{#2}
+#: cv_surname-en.tex:98
+msgid "Areas of expertise"
+msgstr "Áreas de especialização"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:98
+msgid "Database"
+msgstr "Banco de dados"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:98
+msgid "Programming Languages"
+msgstr "Linguagens de programação"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:98
+msgid "Software design"
+msgstr "Projeto de software"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:98
+msgid "Process"
+msgstr "Processos"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:98
+msgid "Platform"
+msgstr "Plataformas"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:98
+msgid "Frameworks"
+msgstr "Frameworks"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:105
+msgid "Object-oriented design"
+msgstr "Orientação a Objeto"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:105
+msgid "Design patterns"
+msgstr "Padrões de projeto"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:105
+msgid "Architectural patterns"
+msgstr "Padrões de arquitetura"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:105
+msgid "Parallel computing"
+msgstr "Computação paralela"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:105
+msgid "Messaging passing"
+msgstr "Troca de mensagens"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:105
+msgid "SOLID principles"
+msgstr "Princípios SOLID"
+
+#. type: newcommand{#4}
+#: cv_surname-en.tex:107
+msgid "Agile"
+msgstr "Ágil"
+
+#. type: document
+#: cv_surname-en.tex:110
+msgid ""
+"\\cvdoubleitem{\\techtob}{C\\#, Javascript, Typescript, C++, C, Java, "
+"Python, HTML, CSS, Bash Shell, Powershell} {\\techtoc}{\\techtoca, "
+"\\techtocb, \\techtocc, \\techtocd, \\techtoce, \\techtocf, BDD, UML}"
+msgstr ""
+"\\cvdoubleitem{\\techtob}{C\\#, Javascript, Typescript, C++, C, Java, "
+"Python, HTML, CSS, Bash Shell, Powershell} {\\techtoc}{\\techtoca, "
+"\\techtocb, \\techtocc, \\techtocd, \\techtoce, \\techtocf, BDD, UML}"
+
+#. type: document
+#: cv_surname-en.tex:113
+msgid ""
+"\\cvdoubleitem{\\techtof}{.Net, Entity Framework, Asp.Net, SpecFlow, "
+"Angular, Android, JDK, Boost} {\\techtoa}{SQL Server, Oracle, DB2, Adabas, "
+"PL/SQL, Firebird, MongoDB, Redis}"
+msgstr ""
+"\\cvdoubleitem{\\techtof}{.Net, Entity Framework, Asp.Net, SpecFlow, "
+"Angular, Android, JDK, Boost} {\\techtoa}{SQL Server, Oracle, DB2, Adabas, "
+"PL/SQL, Firebird, MongoDB, Redis}"
+
+#. type: document
+#: cv_surname-en.tex:116
+msgid ""
+"\\cvdoubleitem{\\techtoe}{REST, Web, Android, Desktop, Linux, Windows, Git, "
+"TFS} {\\techtod}{\\techtoda, Kanban, Scrum, TDD}"
+msgstr ""
+"\\cvdoubleitem{\\techtoe}{REST, Web, Android, Desktop, Linux, Windows, Git, "
+"TFS} {\\techtod}{\\techtoda, Kanban, Scrum, TDD}"
